@@ -66,11 +66,11 @@ The designs were created for the following widths:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile](./assets/images/mobile.png)
 
-![](./screenshot.jpg)
+![Tablet](./assets/images/tablet.png)
 
-![](./screenshot.jpg)
+![Desktop](./assets/images/desktop.png)
 
 ### Links
 
