@@ -7,7 +7,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Hanken Grotesk Extra Bold';
     src: url('../fonts/HankenGrotesk-ExtraBold.woff2') format('woff2'),
@@ -17,7 +16,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Hanken Grotesk Bold';
     src: url('../fonts/HankenGrotesk-Bold.woff2') format('woff2'),

@@ -81,84 +81,77 @@ The designs were created for the following widths:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 
 ### What I learned
 
-I gained insights and learned several key lessons that have enhanced my understanding and skills as a developer. I improved the semantic HTML structure, responsive CSS layouts with CSS Grid, and asynchronous data retrieval with fetch, see below:
+I gained insights and learned several key lessons that have enhanced my understanding and skills as a developer. I improved the semantic HTML structure, responsive CSS layouts with CSS.
 
 This not only improves accessibility but also provides clearer meaning to search engines and developers reading the code.
 ```html
 <!-- Use of semantic HTML -->
-<section>
-  <header>
-    <h1>About Me</h1>
-  </header>
-  <article>
-    <h2>Introduction</h2>
-    <p>...</p>
-  </article>
-  <article>
-    <h2>Education</h2>
-    <p>...</p>
-  </article>
-  <article>
-    <h2>Skills</h2>
-    <ul>
-      <li>...</li>
-      <li>...</li>
-    </ul>
-  </article>
-  <footer>
-    <p>...</p>
-  </footer>
-</section>
+<div class="bottom">
+  <h2>Summary</h2>
+  <div class="criteria">
+    <div class="reaction summaries">
+      <img src="./assets/images/icon-reaction.svg" alt="A lightning bold, I think. Or a z. Either way it got a reaction.">
+      <p class="width-set">Reaction</p>
+      <p class="fractional">80 <span class="fractional-position">/ 100</span></p>
+    </div>
+    <div class="memory summaries">
+      <img src="./assets/images/icon-memory.svg" alt="A brain. A yellow colored brain.">
+      <p class="width-set">Memory</p>
+      <p class="fractional">92 <span class="fractional-position">/ 100</span></p>
+    </div>
+    <div class="verbal summaries">
+      <img src="./assets/images/icon-verbal.svg" alt="A text bubble with a line in it.">
+      <p class="width-set">Verbal</p>
+      <p class="fractional">61 <span class="fractional-position">/ 100</span></p>
+    </div>
+    <div class="visual summaries">
+      <img src="./assets/images/icon-visual.svg" alt="A eye.">
+      <p class="width-set">Visual</p>
+      <p class="fractional">72 <span class="fractional-position">/ 100</span></p>
+    </div>
+    <button>Continue</button>
+  </div>
+</div>
 ```
 
-By defining a grid container and specifying the number of columns (grid-template-columns), I can easily adjust the layout for different screen sizes. In this case, the grid changes to two columns when the screen width is 768 pixels or less, allowing for a more optimal viewing experience on smaller devices.
+By defining a container and specifying the columns, I can easily adjust the layout for different screen sizes.
 ```css
 /* CSS Grid used for responsive layout */
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+.reaction {
+  color: var(--lite-red);
+  background-color: hsla(0, 100%, 67%, 0.072);
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.memory {
+  color: var(--orangey-yellow);
+  background-color: hsla(39, 100%, 56%, 0.072);
+}
+
+.verbal {
+  color: var(--green-teal);
+  background-color: rgba(0, 189, 145, 0.072);
+}
+
+.visual {
+  color: var(--cobalt-blue);
+  background-color: hsla(234, 85%, 45%, 0.072);
 }
 ```
-
-```js
-// Used fetch API for HTTP requests
-fetch('https://api.example.com/data')
-  .then(response => response.json())
-  .then(data => {
-    // Handle the retrieved data
-    console.log(data);
-  })
-  .catch(error => {
-    // Handle any errors that occurred during the fetch request
-    console.error(error);
-  });
-```
-Additionally, error handling is implemented using the catch() method to log any errors that may occur during the request.
 
 ### Useful resources
 
-- [Example resource 1](https://example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Mozilla Developers Network](https://developer.mozilla.org/en-US/) - Documenting for web technologies, including CSS, HTML, and JavaScript.
 - [Transfonter](https://transfonter.org/) - Modern and simple css @font-face generator. TTF, OTF, WOFF, WOFF2 or SVG, 15 MB per file.
 - [The Markdown Guide](https://markdownguide.org/) - If you want more help with writing markdown, I'd recommend checking out their site to learn more.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Github - [@yourusername](https://www.twitter.com/yourusername)
-- LinkedIn - [yourusername](https://www.linkedin.com)
+- Website - [Portfolio](https://stevenmnoyes.com)
+- Github - [Github Profile](https://github.com/SteveNoyes/)
+- LinkedIn - [LinkedIn Profile](https://www.linkedin.com/in/steven-noyes/)
