@@ -74,8 +74,7 @@ The designs were created for the following widths:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages Hosting](https://stevenoyes.github.io/result-summary-component/)
 
 ## My process
 

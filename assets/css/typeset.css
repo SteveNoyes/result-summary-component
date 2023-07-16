@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Hanken Grotesk Medium';
-    src: url('HankenGrotesk-Medium.woff2') format('woff2'),
-        url('HankenGrotesk-Medium.woff') format('woff'),
-        url('HankenGrotesk-Medium.ttf') format('truetype');
+    src: url('../fonts/HankenGrotesk-Medium.woff2') format('woff2'),
+        url('../fonts/HankenGrotesk-Medium.woff') format('woff'),
+        url('../fonts/HankenGrotesk-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -10,9 +10,9 @@
 
 @font-face {
     font-family: 'Hanken Grotesk Extra Bold';
-    src: url('HankenGrotesk-ExtraBold.woff2') format('woff2'),
-        url('HankenGrotesk-ExtraBold.woff') format('woff'),
-        url('HankenGrotesk-ExtraBold.ttf') format('truetype');
+    src: url('../fonts/HankenGrotesk-ExtraBold.woff2') format('woff2'),
+        url('../fonts/HankenGrotesk-ExtraBold.woff') format('woff'),
+        url('../fonts/HankenGrotesk-ExtraBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -20,9 +20,9 @@
 
 @font-face {
     font-family: 'Hanken Grotesk Bold';
-    src: url('HankenGrotesk-Bold.woff2') format('woff2'),
-        url('HankenGrotesk-Bold.woff') format('woff'),
-        url('HankenGrotesk-Bold.ttf') format('truetype');
+    src: url('../fonts/HankenGrotesk-Bold.woff2') format('woff2'),
+        url('../fonts/HankenGrotesk-Bold.woff') format('woff'),
+        url('../fonts/HankenGrotesk-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;

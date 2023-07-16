@@ -1,9 +1,173 @@
-/* 
-  Font-family:
+/* Style Guide */
 
-  'Hanken Grotesk Medium'
+/* Layout */
+/* - Mobile: 375px - */
+/* - Desktop: 1440px - */
+
+/* Font */
+/* <p>: 18px */
+
+/* 500, 700, 800 */
+
+/* 'Hanken Grotesk Medium'
   'Hanken Grotesk Extra Bold'
-  'Hanken Grotesk Bold' 
+  'Hanken Grotesk Bold' */
 
-*/
+body {
+  font-family: 'Hanken Grotesk Medium', monospace;
+  font-size: 18px;
+  background-color: var(--white);
+  color: var(--white);
+}
 
+/* Colors */
+:root {
+  /* Primary */
+  --lite-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  /* Gradients */
+    /* Background */
+  --lite-slate-blue: hsl(252, 100%, 67%);
+  --lite-royal-blue: hsl(241, 81%, 54%);
+    /* Circle */
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --lite-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+.top {
+  color: var(--white);
+  background: linear-gradient(var(--lite-slate-blue), var(--lite-royal-blue));
+  text-align: center;
+  border-radius: 0 0 30px 30px;
+  padding: 10px 30px 20px 30px;
+}
+
+.your-results {
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 0 20px 0;
+  color: var(--lite-lavender);
+}
+
+.circle {
+  height: 115px;
+  width: 115px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: linear-gradient(var(--violet-blue), var(--persian-blue));
+  color: var(--lite-lavender);
+  font-size: 12px;
+  font-family: 'Hanken Grotesk Extra Bold';
+  font-weight: 500;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.circle span {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 60px;
+}
+
+.score-valuation {
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.top p {
+  color: var(--lite-lavender);
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.bottom { 
+  padding: 20px;
+}
+
+.bottom h2 {
+  color: var(--black);
+  padding-bottom: 25px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.criteria {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.criteria img {
+  padding-right: 15px;
+}
+
+.summaries {
+  display: flex;
+  align-items:center;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.width-set {
+  width: 75%;
+}
+
+.reaction {
+  color: var(--lite-red);
+  background-color: hsla(0, 100%, 67%, 0.072);
+}
+
+.memory {
+  color: var(--orangey-yellow);
+  background-color: hsla(39, 100%, 56%, 0.072);
+}
+
+.verbal {
+  color: var(--green-teal);
+  background-color: rgba(0, 189, 145, 0.072);
+}
+
+.visual {
+  color: var(--cobalt-blue);
+  background-color: hsla(234, 85%, 45%, 0.072);
+}
+
+.fractional {
+  color: black;
+}
+
+.fractional-position {
+  color: hsla(224, 30%, 27%, 0.600);
+}
+
+button {
+  color: var(--white);
+  background-color: var(--dark-gray-blue);
+  width: 100%;
+  padding: 17px 0;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 642px) {
+  .width-set {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 952px) {
+  * {
+    border: 1px solid red!important;
+  }
+}
