@@ -68,8 +68,6 @@ The designs were created for the following widths:
 
 ![Mobile](./assets/images/mobile.png)
 
-![Tablet](./assets/images/tablet.png)
-
 ![Desktop](./assets/images/desktop.png)
 
 ### Links

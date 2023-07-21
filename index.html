@@ -4,46 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Results summary component</title>
   <link rel="stylesheet" href="./assets/css/typeset.css">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Results Summary</title>
 </head>
 <body>
   <div class="wrapper">
-    <div class="top">
-      <h2 class="your-results">Your Result</h2>
+    <div class="results">
+      <h2>Your Results</h2>
       <div class="circle">
-        <h1><span>76</span> <br>of 100</h1>
+        <p>76</p>
+        <p>of 100</p>
       </div>
-      <h2 class="score-valuation">Great</h2>
-      <p>You scored higher than 65% of <br class="desktop-line-break-display">the <br class="line-break-display">people who have taken <br class="desktop-line-break-display">these tests.</p>
+      <h3>Great</h3>
+      <p>You scored higher than 65% of <br class="results-graph-desktop">the <br class="results-graph-mobile">people who have taken <br class="results-graph-desktop">these tests.</p>
     </div>
-    <div class="bottom">
+    <div class="summary">
       <h2>Summary</h2>
-      <div class="criteria">
-        <div class="reaction summaries">
-          <img src="./assets/images/icon-reaction.svg" alt="A lightning bold, I think. Or a z. Either way it got a reaction.">
-          <p class="width-set">Reaction</p>
-          <p class="fractional">80 <span class="fractional-position">/ 100</span></p>
-        </div>
-        <div class="memory summaries">
-          <img src="./assets/images/icon-memory.svg" alt="A brain. A yellow colored brain.">
-          <p class="width-set">Memory</p>
-          <p class="fractional">92 <span class="fractional-position">/ 100</span></p>
-        </div>
-        <div class="verbal summaries">
-          <img src="./assets/images/icon-verbal.svg" alt="A text bubble with a line in it.">
-          <p class="width-set">Verbal</p>
-          <p class="fractional">61 <span class="fractional-position">/ 100</span></p>
-        </div>
-        <div class="visual summaries">
-          <img src="./assets/images/icon-visual.svg" alt="A eye.">
-          <p class="width-set">Visual</p>
-          <p class="fractional">72 <span class="fractional-position">/ 100</span></p>
-        </div>
-        <button>Continue</button>
+      <div class="reaction summary-items">
+        <img src="./assets/images/icon-reaction.svg" alt="">
+        <p>Reaction</p>
+        <p>80 <span>/ 100</span></p>
       </div>
+      <div class="memory summary-items">
+        <img src="./assets/images/icon-memory.svg" alt="">
+        <p>Memory</p>
+        <p>92 <span>/ 100</span></p>
+      </div>
+      <div class="verbal summary-items">
+        <img src="./assets/images/icon-verbal.svg" alt="">
+        <p>Verbal</p>
+        <p>61 <span>/ 100</span></p>
+      </div>
+      <div class="visual summary-items">
+        <img src="./assets/images/icon-visual.svg" alt="">
+        <p>Visual</p>
+        <p>72 <span>/ 100</span></p>
+      </div>
+      <button>Continue</button>
     </div>
   </div>
 </body>
